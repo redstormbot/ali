@@ -221,30 +221,22 @@ function create_config( )
     "all",
     "leave_ban"
     },
-    sudo_users = {110626080,103649648,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {107356556,103649648,139837932,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v2 - Open Source
 An advance Administration bot based on yagop/telegram-bot 
 
-https://github.com/SEEDTEAM/TeleSeed
+
 
 Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@Rondoozle [Developer]
-@seyedan25 [Manager]
+@black_hack_admin
 
 Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
+djmjcj
 
-Our channels
-@teleseedch [English]
-@iranseed [persian]
-]],
+
+
     help_text_realm = [[
 Realm Commands:
 
@@ -317,7 +309,7 @@ This command will send text to [group_id]
 
 *Only admins and sudo can use kick,ban,unban,newlink,setphoto,setname,lock,unlock,set rules,set about and settings commands
 
-*Only admins and sudo can use res, setowner, commands
+*Only admins and sudo can use res, setowner, commands and to create group sen 10 stickers to @black_hack_admin
 ]],
     help_text = [[
 Commands list :
@@ -423,7 +415,7 @@ will return group ban list
 
 *Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
 
-*Only owner can use res,setowner,promote,demote and log commands
+*Only owner can use res,setowner,promote,demote and log commands to create group send 10 stickers to @black_hack_admin
 
 ]]
   }
